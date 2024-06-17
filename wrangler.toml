@@ -1,5 +1,7 @@
 name = "cloudflare-mirrors-docker"
 compatibility_date = "2023-12-01"
+workers_dev = true
+main = "src/index.js"
 
 [dev]
 ip = "0.0.0.0"
